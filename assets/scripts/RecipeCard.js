@@ -90,7 +90,6 @@ class RecipeCard extends HTMLElement {
 		color: #70757A;
 		font-size: 12px;
 	  }
-		  ...
 		`;
 		// A4. TODO - Insert all of the styles from cardTemplate.html into the <style> element you just made (copy everything INSIDE the <style> tag>)
 		this.shadowRoot.append(style, article);
@@ -154,8 +153,9 @@ class RecipeCard extends HTMLElement {
 		//           Remember to replace all the placeholders in the template with the data passed in.
 		//           i.e. imgSrc, titleLnk, etc
 	}
-	customElements.define('recipe-card', RecipeCard);
+	
 //}
 
 // A8. TODO - Define the Class as a customElement so that you can create
 //           'recipe-card' elements
+customElements.define('recipe-card', RecipeCard);
